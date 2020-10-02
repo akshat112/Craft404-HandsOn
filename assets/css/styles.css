@@ -92,3 +92,46 @@ nav {
   margin-top: 50px;
   font-size: 24px;
 }
+
+/* FEATURED RECIPES SECTION */
+
+.featured-body {
+  height: 100%;
+  padding: 50px 10%;
+  margin-bottom: 50px;
+}
+
+.featured-line {
+  width: 190px;
+  height: 2px;
+  background-color: #ff8383;
+  margin-left: 20px;
+}
+.featured-cardwrap {
+  margin: 10px auto;
+}
+
+.featured-card {
+  width: 35%;
+  padding: 15px 2%;
+  border-radius: 22px;
+  background-color: #fff3f1;
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+}
+.featured-icon {
+  position: absolute;
+  top: -50px;
+  right: -30px;
+}
+.float-right {
+  float: right;
+}
+.featured-list {
+  font-size: 24px;
+  line-height: 33px;
+}
+.featured-list li {
+  margin-top: 10px;
+}
