@@ -135,3 +135,41 @@ nav {
 .featured-list li {
   margin-top: 10px;
 }
+
+/* TRICKS SECTION */
+
+.tricks-body {
+  background-color: #fff3f1;
+  min-height: 60vh;
+  padding: 50px 10%;
+  position: relative;
+}
+.tricks-line {
+  width: 150px;
+  height: 2px;
+  background-color: #ff8383;
+  margin-left: 20px;
+}
+.tricks-wrap {
+  margin-top: 10px;
+}
+.tricks-list {
+  width: 70%;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.tricks-img {
+  display: inline-block;
+  width: 10%;
+  position: absolute;
+  top: 40%;
+}
+
+.tricks-list li {
+  font-size: 34px;
+}
+.tricks-list li p {
+  font-size: 24px;
+  font-style: italic;
+}
