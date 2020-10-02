@@ -173,3 +173,20 @@ nav {
   font-size: 24px;
   font-style: italic;
 }
+
+/* FOOTER */
+.footer-body {
+  background-color: #4b4b4b;
+  padding: 50px 10%;
+  color: white;
+  display: flex;
+}
+
+.footer-column {
+  width: 24%;
+  display: inline-block;
+  padding: 10px;
+}
+.footer-icon {
+  margin-right: 30px;
+}
