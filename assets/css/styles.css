@@ -191,3 +191,30 @@ nav {
 .footer-icon {
   margin-right: 30px;
 }
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .landing-content {
+    padding-top: 50%;
+  }
+
+  .bg-svg {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+  }
+  .bg-svg > img {
+    width: 250px;
+  }
+  .landing-heading {
+    font-size: 32px;
+    width: 80%;
+  }
+  .landing-caption {
+    font-size: 20px;
+  }
+}
