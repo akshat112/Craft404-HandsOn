@@ -1,0 +1,94 @@
+/* GLOBAL */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+}
+
+h1 {
+  margin: 4px 0;
+}
+
+/* ASTHETICS */
+
+.landing-body {
+  background-color: #fff3f1;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+}
+
+.bg-circle {
+  width: 400px;
+  height: 400px;
+  background-color: #ffc5be;
+  border-radius: 50%;
+}
+
+.landing-circle-1 {
+  position: absolute;
+  top: -250px;
+  right: 400px;
+  z-index: -1;
+}
+.landing-circle-2 {
+  position: absolute;
+  top: 150px;
+  left: -250px;
+  z-index: -1;
+}
+.bg-svg {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  z-index: 1;
+}
+
+/* NAV BAR */
+
+nav {
+  z-index: 1;
+}
+.nav-body {
+  padding-top: 10px;
+  font-size: 24px;
+}
+.nav-logo {
+  display: inline-block;
+  margin-left: auto;
+  padding: 10px 30px;
+  margin-left: 35px;
+}
+.nav-link {
+  display: inline-block;
+  padding: 10px 30px;
+}
+.nav-link > a {
+  text-decoration: none;
+  color: black;
+}
+.nav-items {
+  display: block;
+  float: right;
+  margin-right: 10%;
+}
+
+/* LANDING CONTENT */
+
+.landing-content {
+  margin-top: 10%;
+  margin-left: 12%;
+}
+
+.landing-heading {
+  font-size: 48px;
+  width: 45%;
+}
+
+.landing-caption {
+  margin-top: 50px;
+  font-size: 24px;
+}
