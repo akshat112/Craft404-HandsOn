@@ -120,6 +120,8 @@ nav {
   display: inline-block;
   margin: 20px;
   position: relative;
+  border-bottom: 2px solid #ff8383;
+  box-shadow: 2px 5px #ff8383 ;
 }
 .featured-icon {
   position: absolute;
@@ -190,6 +192,13 @@ nav {
 }
 .footer-icon {
   margin-right: 30px;
+  max-height: 36px;
+  max-width: 36px;
+  color: white !important;
+}
+
+.footer-heading{
+  font-weight: 700;
 }
 
 /* RESPONSIVE DESIGN */
